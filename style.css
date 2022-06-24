@@ -138,6 +138,12 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+  
   header nav ul li a:hover {
     color: #bdbdbd;
     text-decoration: none;
