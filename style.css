@@ -148,4 +148,21 @@ footer p {
     color: #bdbdbd;
     text-decoration: none;
   }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .question {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, select {
+    width: 100%;
+  }
+
+  .text-content {
+    align-self: center;
+  }
 }
